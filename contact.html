@@ -6,27 +6,31 @@
         <!-- <link rel="Stylesheet" type="text/css" href="../ExResetcss.css"> -->
         <link rel="Stylesheet" type="text/css" href="assets/css/style.css">
     </head>
-
     <body>
-        <div class="container">
+        <!-- <div class="cirbord"></div> -->
+        <nav class="navbox">
+            <div id="navabout"><a href="index.html">Home</a></div>
+            <div id="navportfolio"><a href="portfolio.html">Portfolio</a></div>
+            <div id="navcontact"><a href="contact.html">Contact</a></div>
+        </nav>
+        <div class="headerbox">
+            <div class="h1box">
+                <h1 id="name">Kiana N. G. Darlington</h1>
+                <p id="sub">Contact Kiki</p>
+            </div>
+        </div>
+        <div class="contactbox">
             <form action="action_page.php">
-  
-                <label for="fname">First Name</label>
-
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-                <label for="lname">Last Name</label>
-
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-                <label for="country">Country</label>
-  
-                <label for="subject">Subject</label>
-        
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
+                <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name goes here.">
+                <br><br>
+                <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name goes here.">
+                <br><br><br>
+                    <label for="subject">Subject</label><br>
+                    <textarea id="subject" name="subject" placeholder="Write me a letter! I love letters."></textarea>
+                <br><br>
                 <input type="submit" value="Submit">
-  
             </form>
         </div>
     </body>
