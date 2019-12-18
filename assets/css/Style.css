@@ -9,10 +9,13 @@ body {
     margin-right:15%;
     margin-bottom: 10%;
     margin-top: 4%;
-    background-image: radial-gradient(rgb(197, 15, 85) 5%, transparent 20%),
-    radial-gradient(rgb(26, 3, 11) 20%, transparent 40%);  
-    background-position: 30px 60px,70px 20px;
-    background-size: 100px 100px;
+    background-image: url(../images/black_scales/black_scales.png);
+    /* radial-gradient(rgb(197, 15, 85) 5%, transparent 20%), */
+    /* radial-gradient(rgb(26, 3, 11) 20%, transparent 40%);   */
+    /* background-position: 30px 60px,70px 20px; */
+    /* background-size: 100px 100px; */
+    background-attachment: fixed;
+    background-position: center;
 }
 /*.cirbord {
 display: flex;
@@ -49,7 +52,7 @@ a {
 text-decoration: none;
 }
 a:link {
-color: rgb(197, 15, 85);
+color: rgb(15, 197, 188);
 }
 a:visited {
 color: rgb(255, 176, 176);
@@ -72,7 +75,7 @@ color: rgb(255, 0, 170);
     flex-basis: 100%;*/
 }
 .headerbox div {
-    border:groove 5px rgb(197, 15, 85);
+    border:groove 5px rgb(15, 197, 188);
     border-radius: 100%;
     text-align: center;
     margin-bottom: .01%;
@@ -90,7 +93,7 @@ color: rgb(255, 0, 170);
     font-weight: lighter;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 11px;
-    color: rgb(197, 15, 85);
+    color: rgb(15, 197, 188);
 }
 .bodybox {
     display: flex;
@@ -119,7 +122,7 @@ color: rgb(255, 0, 170);
 }
 img {
     align-content: center;
-    border: 1px solid rgb(197, 15, 85);
+    border: 1px solid rgb(15, 197, 188);
     border-radius: 4px;
     padding: 5px;
     width: 150px;
