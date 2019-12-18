@@ -105,6 +105,7 @@ a:active {
 #subject {
     height: 300px;
     width: 600px;
+    max-width: 50%;
 }
 .bodybox {
     display: flex;
@@ -140,6 +141,9 @@ img {
     margin-left: 5%;
 }
 #info {
+    width: 50%;
     flex: 1;
     order: 2;
+    text-align: center;
+
 }
