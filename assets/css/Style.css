@@ -155,10 +155,22 @@ footer {
     margin-top: 10%;
     border-top: solid 1px rgb(15, 197, 188);
     border-bottom: solid 1px rgb(15, 197, 188);
-}
-#author {
-    flex: 1;
-    order: 1;
     text-align: center;
     font-size: xx-small;
 }
+#author {
+    text-align: left;
+    flex: 4;
+    order: 1;
+}
+#linkedinlink {
+    flex: 1;
+    order: 2;
+    margin-top: 9px;
+}
+#githublink {
+    flex: 1;
+    order: 3;
+    margin-top: 9px;
+}
+
