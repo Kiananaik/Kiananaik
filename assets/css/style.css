@@ -61,7 +61,7 @@ a:hover {
     color: rgb(113, 60, 182);
 }
 a:active {
-    color: rgb(0, 255, 200);
+    color: rgb(255, 0, 255);
 }
 .headerbox {
     display:flex;
